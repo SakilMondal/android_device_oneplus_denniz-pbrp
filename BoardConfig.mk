@@ -132,3 +132,7 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TARGET_USES_MKE2FS := true
 TW_EXCLUDE_APEX := true
 TW_NO_HAPTICS := true
+
+# PBRP specific build flags
+PB_DISABLE_DEFAULT_TREBLE_COMP := true
+PB_TORCH_PATH := "/sys/class/flashlight"
