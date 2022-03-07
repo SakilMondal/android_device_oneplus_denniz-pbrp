@@ -15,4 +15,6 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/twrp_denniz.mk
+    $(LOCAL_DIR)/omni_denniz.mk
+
+COMMON_LUNCH_CHOICES := omni_denniz-eng
